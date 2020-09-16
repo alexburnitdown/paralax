@@ -1,0 +1,27 @@
+{
+  "name": "tailwind_empty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build-css": "tailwindcss build css/style.css -o public/style.css",
+    "watch": "postcss css/style.css -o public/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexburnitdown/tailwind_empty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexburnitdown/tailwind_empty/issues"
+  },
+  "homepage": "https://github.com/alexburnitdown/tailwind_empty#readme",
+  "dependencies": {
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.0.3",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.8.10"
+  }
+}
