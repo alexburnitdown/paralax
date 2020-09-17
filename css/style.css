@@ -2,4 +2,49 @@
 
 @tailwind components;
 
+.h2 {
+    @apply text-lg font-bold text-gray-500;
+}
+
+.text {
+    @apply text-sm font-semibold text-gray-300;
+}
+
+.image {   
+    @apply relative opacity-75;
+}
+
+.section {
+    @apply text-center px-8 py-5;
+}
+
+.image-title {
+    text-shadow: 5px 5px 5px lightslategray;
+}
+
+.pimg1 {
+    background: url(../img/image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* paralax effect */
+    /* background-attachment: fixed; */
+  }
+
+  .pimg2 {
+    background: url(../img/image2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+  }
+
+  .pimg3 {
+    background: url(../img/image3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed;  */
+  }
+
 @tailwind utilities;
